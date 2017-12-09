@@ -1,5 +1,11 @@
 package ru.job4j.calculator;
 
+/**
+ *Class Calculate решение задачи части 3 урок 2.3.
+ *@autor vtrushin
+ *@since 09.12.2017
+ */
+
 public class Calculator {
     private double result;
 
