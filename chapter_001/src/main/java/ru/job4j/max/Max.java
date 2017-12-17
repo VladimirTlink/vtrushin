@@ -1,9 +1,9 @@
 package ru.job4j.max;
 
-/**
- *Class Calculate решение задачи части 4 урок 3.1.
+/**2
+ *Class Calculate решение задачи части 4 урок 3.2.
  *@autor vtrushin
- *@since 16.12.2017
+ *@since 17.12.2017
  */
 
 
