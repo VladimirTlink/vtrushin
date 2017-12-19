@@ -13,13 +13,18 @@ public class Max {
         /* Реализация с пакетной функцией
         return (Math.max(first, second));
         */
-        //Реализация обычным способом))) Не знаю как назвать способ решения))
+        //Говноспособ)
+        /*
         int m;
         if (first > second) {
             m = first;
         } else  {
             m = second;
         }
+        */
+        //Через тернарный оператор
+        int m;
+        m = first > second ? first : second;
     return m;
     }
 }
