@@ -23,8 +23,7 @@ public class Max {
         }
         */
         //Через тернарный оператор
-        int m;
-        m = first > second ? first : second;
-    return m;
+        return first > second ? first : second;
+
     }
 }
