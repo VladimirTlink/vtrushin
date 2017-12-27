@@ -1,5 +1,5 @@
 package ru.job4j.condition;
-/**
+
 
 public class Triangle {
     private Point a;
@@ -21,12 +21,11 @@ public class Triangle {
         double bc = this.b.distanceTo(this.c);
         double p = this.period(ab, ac, bc);
         if (this.exist(ab, ac, bc)) {
-            rsl = (a + b + c) / 2;
-            return Math.sqrt(p * (p - a) * (p - b) * (p - c));
-            rsl = (((a+b+c)/2)*((a+b+c)/2-a)*((a+b+c)/2-b)*((a+b+c)/2-c));
-            return Math.sqrt(rsl);
+            rsl =  Math.sqrt(p * (p - ab) * (p - ac) * (p - bc));
         }
         return rsl;
     }
+    private boolean exist(double ab, double ac, double bc) {
+        return false;
+    }
 }
-*/
